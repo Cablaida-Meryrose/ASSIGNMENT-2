@@ -250,7 +250,7 @@ p{
 
 /* Extra small screens (max-width: 480px) */
 
-@media (min-width: 0px) and (max-width: 760px){}
+@media screen and (max-width: 360px) {}
 
     body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
     
@@ -351,7 +351,7 @@ p{
     
     /* Mobile screens (max-width: 768px) */
     
-    @media screen and (max-width: 760px) {
+    @media (min-width: 701px) and (max-width: 1029px) {
     
     .logo {
     
@@ -401,7 +401,7 @@ p{
     
     /* Extra small screens (max-width: 480px) */
     
-    @media(min-width: 0px) and (max-width: 760px){
+    @media (min-width: 0px) and (max-width: 700px){
     
     nav{
     
@@ -444,7 +444,7 @@ p{
         font-size: 24px;
     
     
-        margin-left: 70px;
+        margin-left: 60%;
     
     
     }
